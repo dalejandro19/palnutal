@@ -1,0 +1,30 @@
+.contenedor{
+	width:70%;height:100%;
+	float:left;
+	background-image:url("https://www.elmetropolitanodigital.com/wp-content/uploads/2015/06/paisaje.jpg");
+	background-size:cover;
+	background-position:center;
+	border-radius:15px;
+}
+
+.auxiliar{
+	width:100%;height:100%;
+	background:rgba(231,135,45,0.9);
+	margin-top:5em;margin-bottom:5em;
+}
+
+.text_index{
+	padding:0;
+	color:white;
+	font-size:1.5em;font-family:Imprint MT Shadow;
+}
+
+/*Footer*/
+footer{
+	height:60px;
+	background-color:rgba(179,51,10,0.8);
+	color:#FFF;
+	font-size:17px;
+	letter-spacing:1px;
+	text-align:center;
+}

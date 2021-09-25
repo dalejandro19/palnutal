@@ -1,0 +1,68 @@
+/*Fondo de la Pagina*/
+body{
+	background-image:url(https://www.elmetropolitanodigital.com/wp-content/uploads/2015/06/paisaje.jpg);
+	background-size:cover;
+}
+
+/*Contenedores*/
+.section{
+	width:100%;height:100%;
+	background-color:#CB3E22;
+	margin-top:1em; margin-bottom:1em;
+	border-radius:1em;
+}
+
+.aspect{
+	width:90%; height:90%;
+	background-color:rgba(236,240,241,0.6);	
+	margin:0 auto;
+}
+
+/*Palabra en Rojo*/
+.red{
+	color:red;font-family:Britannic Bold;
+}
+
+/*Palabra en Verde*/
+.green{
+	color:green;font-family:Britannic Bold;
+}
+
+/*Parrafos*/
+.text{
+	padding:0 auto;
+	text-align:center;
+	font-size:1.2em;font-family:Comic Sans MS;
+}
+
+/*Palabra de redes sociales y sugerencias*/
+.text_networs{
+	color:#800000;
+	font-size:1.2em;font-family:Georgia;
+}
+
+.text_contact{
+	color:#800000;
+	font-size:1.2em;font-family:Lucida Calligraphy;
+}
+
+.table td{
+	text-align:center;
+}
+
+/*Footer*/
+footer{
+	height:40px;
+	background-color:#AF3922;
+	color:#FFF;
+	font-size:17px;
+	letter-spacing:1px;
+	text-align:center;
+}
+
+img:hover {
+	transition: .3s ease-in-out;
+	-webkit-transition: .3s ease-in-out;
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
